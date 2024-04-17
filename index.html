@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<head>
+	<title>FC TEST</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="form-container">
+	<h1>SAMPLE - HTML type</h1>
+        
+		
+        <form action="http://analytics-eu.clickdimensions.com/forms/h/azbodkIHcmEusdXzFt1jny" method="post"
+            name="frmWebCapture" id="frmWebCapture">
+            <div class="row">
+                <span class="textTitle">Anrede:</span><br>
+                <select id="cd_salutation" class="textField" name="cd_salutation">
+                        <option value="0">Frau</option>
+                        <option value="1">Herr</option>
+                </select><br>
+            </div>
+			<div class="row">
+                <span class="textTitle">First name:</span><br>
+                <input id="cd_email" class="textField" size="25" name="cd_firstname" /> <br>
+            </div>
+			<div class="row">
+                <span class="textTitle">Last name:</span><br>
+                <input id="cd_email" class="textField" size="25" name="cd_lastname" /> <br>
+            </div>
+            <div class="row">
+                <span class="textTitle">E-mail Addresse:</span><br>
+                <input id="cd_email" class="textField" size="25" name="cd_email" /> <br>
+            </div>
+            <div class="row">
+                <span class="textTitle">UserHash:</span><br>
+                <input id="cd_userhash" class="textField" size="50" name="cd_userhash" /> <br>
+            </div>
+            <br>
+            <br>
+            <button type="submit" id="btnSubmit">Registrieren</button>
+        </form>
+    </div>
+    </div>
+    
+	<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
+
+<script type="text/javascript"> 
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('a3dQlzNA3DUd6cYPa7WYg'); 
+  cdAnalytics.setDomain('t1-acaiweb.bn.ch'); 
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+  cdAnalytics.trackPage(); 
+</script> 
+</body>
